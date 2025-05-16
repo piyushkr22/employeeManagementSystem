@@ -1,7 +1,12 @@
 import React from "react";
+import Login from "./components/Auth/Login";
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 };
 
 export default App;
